@@ -18,7 +18,7 @@ const Hero = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="w-full  flex flex-col justify-center pr-10 ">
+      <div className="w-full  flex flex-col justify-center pr-10 mt-16 ">
         <h2 className="mt-24 font-semibold text-xl md:mt-10 mb-5 text-white">
           Welcome to the right places
         </h2>
@@ -55,11 +55,10 @@ const Hero = () => {
         </div>
       </div>
       <div
-        data-aos="fade-left"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
-        data-aos-duration="500"
-        className="w-[80%] flex mx-auto items-center justify-end md:w-full my-20 "
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="w-[80%] flex mx-auto items-center justify-end md:w-full my-16 md:mt-32"
       >
         <img
           className="md:w-[65%] rounded-full ring-8 ring-[#f9970e] ring-offset-2 shadow-2xl"

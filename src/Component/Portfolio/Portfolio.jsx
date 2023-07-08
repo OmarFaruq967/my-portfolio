@@ -15,9 +15,8 @@ const Portfolio = () => {
         <Heading title={"Some websites i have designed"} />
       </div>
       <div
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
+        data-aos="fade-up"
+        data-aos-duration="3000"
         className="grid md:grid-cols-3 gap-10"
       >
         <WorkItem

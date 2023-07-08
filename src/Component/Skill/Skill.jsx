@@ -32,25 +32,109 @@ const Skill = () => {
           <SkillImage />
         </div>
         <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          // data-aos="flip-left"
+          // data-aos-easing="ease-out-cubic"
+          // data-aos-duration="2000"
           className="grid grid-cols-2 md:grid-cols-4  "
         >
-          <SkillItem image={html} title="HTML" />
-          <SkillItem image={css} title="CSS" />
-          <SkillItem image={js} title="Java Script" />
-          <SkillItem image={bs} title="Bootstrap" />
-          <SkillItem image={tailwind} title="Tailwind" />
-          <SkillItem image={firebase} title="Firebase" />
-          <SkillItem image={express} title="Express JS" />
-          <SkillItem image={GitBash} title="GitBash" />
-          <SkillItem image={github} title="GitHub" />
-          <SkillItem image={MongoDB} title="MongoDB" />
-          <SkillItem image={netlify} title="Netlify" />
-          <SkillItem image={NodeJS} title="Node JS" />
-          <SkillItem image={react} title="React" />
-          <SkillItem image={VsCode} title="VS Code" />
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={html} title="HTML" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={css} title="CSS" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={js} title="Java Script" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={bs} title="Bootstrap" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={tailwind} title="Tailwind" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={firebase} title="Firebase" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={express} title="Express JS" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={GitBash} title="GitBash" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={github} title="GitHub" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={MongoDB} title="MongoDB" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={netlify} title="Netlify" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={NodeJS} title="Node JS" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={react} title="React" />
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <SkillItem image={VsCode} title="VS Code" />
+          </div>
         </div>
       </div>
     </div>
