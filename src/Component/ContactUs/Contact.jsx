@@ -18,7 +18,7 @@ const Contact = () => {
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
-          className="w-full md:w-[40%] mb-5"
+          className="w-full md:w-[45%] mb-5"
         >
           <ContactInfo />
         </div>
@@ -26,7 +26,7 @@ const Contact = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="w-full px-5 md:w-[50%] bg-[#f6f9fa] py-12 rounded-xl shadow-xl "
+          className="w-full px-5 md:w-[45%] bg-[#f6f9fa] py-12 rounded-xl shadow-xl "
         >
           <ContactForm />
         </div>
