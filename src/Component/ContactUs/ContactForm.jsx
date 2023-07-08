@@ -104,7 +104,7 @@ const ContactForm = () => {
       <div className="flex justify-between">
         <button
           type="submit"
-          className="px-4 py-2 font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+          className="px-4 py-2 font-semibold text-white bg-[#F9970E] rounded hover:bg-black focus:outline-none focus:bg-blue-600"
         >
           Submit
         </button>

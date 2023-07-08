@@ -37,98 +37,98 @@ const Skill = () => {
           // data-aos-duration="2000"
           className="grid grid-cols-2 md:grid-cols-4  "
         >
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={html} title="HTML" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={css} title="CSS" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={js} title="Java Script" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={bs} title="Bootstrap" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={tailwind} title="Tailwind" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={firebase} title="Firebase" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={express} title="Express JS" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={GitBash} title="GitBash" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={github} title="GitHub" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={MongoDB} title="MongoDB" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={netlify} title="Netlify" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={NodeJS} title="Node JS" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
             <SkillItem image={react} title="React" />
           </div>
-          <div
+          <div className="hover:animate-bounce cursor-pointer"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"

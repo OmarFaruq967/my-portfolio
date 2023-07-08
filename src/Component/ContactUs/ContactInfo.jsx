@@ -1,5 +1,12 @@
 import React from "react";
-import { FaEnvelopeOpenText, FaPhoneSquareAlt } from "react-icons/fa";
+import {
+  FaEnvelopeOpenText,
+  FaFacebook,
+  FaGithub,
+  FaLinkedinIn,
+  FaPhoneSquareAlt,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const ContactInfo = () => {
   return (
@@ -37,6 +44,8 @@ const ContactInfo = () => {
           </h2>
         </div>
       </div>
+      
+      
     </div>
   );
 };
