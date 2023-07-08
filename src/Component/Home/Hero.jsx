@@ -26,17 +26,19 @@ const Hero = () => {
           Hello there I'm
         </h2>
         <TypeAnimation
-          className="text-3xl font-bold md:text-5xl mb-5 text-white"
+          className="text-3xl font-bold md:text-5xl mb-5 text-[#f9970e]"
           preRenderFirstString={true}
           sequence={[
             1000,
-            "MD. Omar Faruq",
+            "Md. Omar Faruq",
             1000,
             "MARN Web Developer",
             1000,
             "Font End Developer",
             1000,
             "Website Developer",
+            1000,
+            "WordPress Designer",
             1000,
           ]}
           speed={50}

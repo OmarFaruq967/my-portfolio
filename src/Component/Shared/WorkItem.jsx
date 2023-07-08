@@ -2,7 +2,8 @@ import React from "react";
 
 const WorkItem = ({ title, description, image, GitHub, LiveWebsite }) => {
   return (
-    <div className="shadow-xl relative rounded-lg ">
+    <div className="shadow-xl hover:shadow-none relative rounded-lg drop-shadow-xl
+    border-2 border-[#ffffff00] border-opacity-0 hover:drop-shadow-none hover:border-2 hover:border-[#F9970E] hover:border-opacity-25 transition-all duration-300 ">
       <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
         <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
           <img

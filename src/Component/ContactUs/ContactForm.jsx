@@ -48,10 +48,11 @@ const ContactForm = () => {
         </label>
         <input
           type="text"
+          placeholder="Type your name"
           name="name"
           value={values.name}
           onChange={handleChange}
-          className={`appearance-none w-full px-3 py-2 rounded-lg leading-tight border focus:outline-none focus:shadow-outline ${
+          className={`appearance-none w-full px-3 py-3 rounded-lg leading-tight border focus:outline-none focus:shadow-outline ${
             errors.name ? "border-red-500" : "border-gray-300"
           }`}
         />
@@ -69,10 +70,11 @@ const ContactForm = () => {
         </label>
         <input
           type="email"
+          placeholder="Type your email"
           name="email"
           value={values.email}
           onChange={handleChange}
-          className={`appearance-none w-full px-3 py-2 rounded-lg leading-tight border focus:outline-none focus:shadow-outline ${
+          className={`appearance-none w-full px-3 py-3 rounded-lg leading-tight border focus:outline-none focus:shadow-outline ${
             errors.email ? "border-red-500" : "border-gray-300"
           }`}
         />
@@ -90,9 +92,11 @@ const ContactForm = () => {
         </label>
         <textarea
           name="message"
+          placeholder="Type your massage"
           value={values.message}
           onChange={handleChange}
-          className={`appearance-none w-full px-3 py-2 rounded-lg leading-tight border focus:outline-none focus:shadow-outline ${
+          rows={4}
+          className={`appearance-none w-full px-3 py-3 rounded-lg leading-tight border focus:outline-none focus:shadow-outline ${
             errors.message ? "border-red-500" : "border-gray-300"
           }`}
         />
